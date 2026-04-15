@@ -1,5 +1,5 @@
 #include <bits/stdc++.h>
-using namespace std;
+
 
 #define V 20
 #define INF 99999
