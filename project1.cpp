@@ -6,18 +6,6 @@
 
 using namespace std;
 
-int minDistance(int dist[], bool sptSet[]) 
-{
-    int min = INT_MAX, min_index;
-
-    for (int v = 0; v < V; v++)
-        if (!sptSet[v] && dist[v] <= min)
-            min = dist[v], min_index = v;
-
-    return min_index;
-}
-
-
 vector<vector<int>> Floyd_Warshall(vector<vector<int>> graph) {
     vector<vector<int>> distance(V, vector<int>(V, 0));
 
