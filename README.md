@@ -9,7 +9,7 @@ The project represents a city as a weighted graph , where:
 
 The system allows a user to select their current location and destination, then:
 
-1- Finds the nearest available cab.
+1- Finds the nearest available cab to the user.
 
 2- Computes the shortest travel path.
 
