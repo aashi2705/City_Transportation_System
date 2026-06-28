@@ -3,8 +3,11 @@
 A C++ implementation of a city transportation arrangement system that uses Graph Theory and the Floyd–Warshall Shortest Path Algorithm to connect users with the nearest available cab. The project models a city as a weighted graph and provides an efficient way to estimate travel routes and fares.
 
 The project represents a city as a weighted graph , where:
+
 **Vertices (Nodes)** represent different locations in the city.
+
 **Edges** represent roads connecting locations.
+
 **Edge weights** represent distance between locations.
 
 The system allows a user to select their current location and destination, then:
